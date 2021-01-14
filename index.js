@@ -5,6 +5,7 @@ const puppeteer = require('puppeteer');
 // TODO: option to print requests in a transmittable format,
 // ideally "Copy as cURL" in Chrome because that can be converted to Python
 // with https://curl.trillworks.com/
+// TODO: support regex
 const args = process.argv.slice(2);  // node index.js
 if (args.length !== 2) {
     process.exit("usage: node index.js <search string> <url to load>")
