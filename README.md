@@ -4,6 +4,16 @@
 piece of data come from" when that page is loaded by Chrome. This is useful
 for discovering API's with Chrome Headless.
 
+### Installation
+
+``` sh
+sudo apt install node git
+sudo npm install -g yarn
+git clone https://github.com/verhovsky/grep-requests
+cd grep-requests
+yarn install
+node --unhandled-rejections=strict index.js "search text" "http://example.com"
+```
 
 ### Usage
 
