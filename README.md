@@ -23,4 +23,5 @@ for the javascript) contains the word "console" in the text of its response.
 
 ### How it works
 
-It intercepts Chrome's request responses using Puppetteer and then searches them.
+It intercepts Chrome's request responses
+[using Puppeteer](https://pptr.dev/#?show=api-event-response) and then searches them.
