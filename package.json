@@ -1,0 +1,13 @@
+{
+  "name": "grep-requests",
+  "version": "0.0.1",
+  "description": "find which request a piece of data comes from when loading a given URL",
+  "main": "index.js",
+  "repository": "https://github.com/verhovsky/grep-requests",
+  "author": "Boris Verkhovskiy",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
+}
