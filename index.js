@@ -41,6 +41,7 @@ new URL(url); // check that second argument can be parsed as a URL
             }
         }).catch(console.error);
     });
-    await page.goto(url);
+    // TODO: make "networkidle2" configurable
+    await page.goto(url, {waitUntil: 'networkidle2'});
     await browser.close();
 })();
