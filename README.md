@@ -1,8 +1,17 @@
 # grep-requests
 
 `grep-requests` lets you specify a URL and ask "which request did a certain
-piece of data come from" when that page is loaded by Chrome. This is useful
-for discovering API's with Chrome Headless.
+piece of data come from" when that page is loaded by Chrome.
+
+This is can be used for discovering if data on a given web page comes from an
+API or if the server returns the HTML with the data inside.
+
+## This is already built into Chrome
+
+I started coding this project before realizing that you can already do this
+in Chrome: open the Network tab in the Dev Tools and press Ctrl-f (instead of
+clicking on the text box that says "Filter"), that search will match on
+response contents as well.
 
 ### Installation
 
