@@ -18,18 +18,18 @@ node --unhandled-rejections=strict index.js "search text" "http://example.com"
 ### Usage
 
 ``` sh
-grep-request "some data" "http://example.com"
+grep-requests "some data" "http://example.com"
 ```
 
-Sample session:
+#### Sample usage:
 
 ``` sh
 $ node --unhandled-rejections=strict index.js "console" "https://www.wikipedia.org"
 GET https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-ac2f73e93a.js
 ```
 
-opening Wikipedia in Chrome fires off about 5 requests, one of which (the GET request
-for the javascript) contains the word "console" in the text of its response.
+Opening Wikipedia in Chrome fires off about 5 requests, one of which (the GET request
+for the JavaScript) contains the string `"console"` in the text of its response.
 
 ### How it works
 
